@@ -1,0 +1,539 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.12.2
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+b, strong{
+    font-weight: bold !important; 
+}
+#mega_main_menu.mega_main_sidebar_menu > .menu_holder > .menu_inner > ul > li > .item_link > i:before{
+    color: gray !important
+}
+#mega_main_menu{
+    z-index: 29 !important
+}
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+#mega_main_menu br{
+    display: none !important
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+    background-color: currentColor !important;
+    border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+color: #fff;
+    background-color: #446084;
+    border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+   background : #2478ba !important;
+    border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+color: #fff !important;
+    background-color: #cb2320  !important;
+    border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+color: #fff !important;
+    background-color: #dd4e31 !important;
+    border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+color: #fff !important;
+    background-color: #0072b7 !important;
+    border-color: #0072b7     !important;
+}
+
+.single-date{
+        border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+    font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+    border-top: none !important;
+    border-bottom: 1px dashed #ececec !important;
+    
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+    background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+    height: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	    font-size: 18px;
+    float: left;
+    margin: -8px 20px 0 0;
+}
+
+.product-title  {
+    
+    min-height: 40px;
+}
+.box .product-title{
+    font-weight: bold;
+}
+.title-danh-muc{
+        background: #3498db;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+.title-danh-muc p{
+    margin-bottom: 0px;
+}
+.section-slide .large-9{
+    padding-left: 0px;
+}
+.lien-he-price{
+    color: #e74c3c;
+    font-weight: bold;
+}
+span.amount{
+        color: #e74c3c !important;
+}
+/*css mega main menu*/
+
+#mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li > .item_link:before, #mega_main_menu.direction-vertical > .menu_holder > .menu_inner > ul > li.nav_search_box:before{
+    background-image: none !important
+}
+/*end css mega main menu*/
+
+
+/*Nut goi dien thoai*/
+.call-now {
+    left: 0;
+    bottom: 25px;
+    height: 50px;
+    min-width: 200px;
+    position: fixed;
+    background-color: #e67e22;
+    border-radius: 0 25px 25px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.8);
+    z-index: 998;
+}
+.call-now .btn-call-now i {
+    position: absolute;
+    color: #e67e22;
+    background-color: #fff;
+    font-size: 35px;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #e67e22;
+}
+.call-now .btn-call-now p {
+    color: #fff;
+    font-size: 14px;
+    min-width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.call-now .btn-call-now strong {
+    display: block;
+    font-size: 18px;
+}
+/*end nut goi*/
+
+.section-text .icon-box{
+        border: 1px solid #cdcdcd;
+    padding: 5px;
+}
+
+
+/*css cho tung theme - ban desktop*/
+h1.entry-title{
+    font-size: 22px !important
+}
+.is-divider{
+    display: none;
+}
+.hotline-single p{
+    font-weight: bold;
+    color: black;
+}
+.hotline-single p a{
+        border-radius: 17px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background: #e67e22
+}
+.hotline-single{
+    border: #dadada solid 1px;
+    padding: 15px;
+    text-align: center;
+    background: #f3f3f3;
+}
+.section-tin-tuc .from_the_blog_excerpt {
+    min-height: 69px;
+}
+.header-block-block-1 .col{
+    padding-bottom: 0px !important;
+}
+/*het phan css*/
+
+div#nz-div {
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#nz-div h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #EA3A3C;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div h3.tde span {
+    background: #EA3A3C;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+
+/*Title 1*/
+div#nz-div-1 {
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#nz-div-1 h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div-1 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #3498db;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div-1 h3.tde span {
+    background: #3498db;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div-1 h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div-1 .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+/*title 2*/
+div#nz-div-2 {
+    border-bottom: 2px solid #e67e22;
+    margin-bottom:20px;
+    display: block;
+}
+
+#nz-div-2 h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div-2 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #e67e22;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div-2 h3.tde span {
+    background: #e67e22;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div-2 h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div-2 .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+
+/*title 3*/
+div#nz-div-3 {
+    border-bottom: 2px solid #34495e;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#nz-div-3 h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div-3 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #34495e;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div-3 h3.tde span {
+    background: #34495e;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div-3 h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div-3 .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+
+/*title 4*/
+div#nz-div-4 {
+    border-bottom: 2px solid #8e44ad;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#nz-div-4 h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div-4 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #8e44ad;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div-4 h3.tde span {
+    background: #8e44ad;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div-4 h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div-4 .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+
+/*title 5*/
+div#nz-div-5 {
+    border-bottom: 2px solid #e74c3c;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#nz-div-5 h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+ 
+    text-transform: uppercase;
+}
+
+#nz-div-5 h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #e74c3c;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+
+#nz-div-5 h3.tde span {
+    background: #e74c3c;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+#nz-div-5 h3 br{
+    display: none !important
+}
+div.sub-cat br{
+    display: none
+}
+#nz-div-5 .sub-cat {
+    margin-top: -40px !important;
+    display: inline-block !important;
+    margin: 0;
+    line-height: 45px;
+    margin-left: 100px;
+    float: right;
+}
+/* 2  ========================= */
+.product-info .product-short-description{
+        font-size: 14px;
+    border: 1px solid #0090ba;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #0090ba;
+}
+.section .row .col{
+    padding-bottom: 8px 
+}
+.footer-1 .textwidget p{
+    margin-bottom: 4px;
+}
+
+
+html {
+   background-image: url(https://tracdia.web2s.vn/wp-content/uploads/2017/08/bgpage.jpg) !important;
+}
+@media only screen and (max-width: 48em) {
+	
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
