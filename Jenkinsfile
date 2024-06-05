@@ -17,7 +17,7 @@ pipeline {
                     localhostIP = "192.168.1.5"
                     vmUsername = "skqist2205"
                     vmPassword = "admin2205"
-
+                    println  "Install Nginx"
                     def command = """
                         echo "${vmPassword}" | sudo -S sudo apt update -y
                         sudo apt install nginx -y
